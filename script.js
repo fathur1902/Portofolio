@@ -15,8 +15,8 @@ document.getElementById("contactForm").addEventListener("submit", function (e) {
     .then((response) => {
       Swal.fire({
         icon: "success",
-        title: "Pesan Terkirim!",
-        text: "Pesan Anda telah berhasil dikirim. Kami akan segera menghubungi Anda.",
+        title: "Pesan Terkirim! MOHON JANGAN SPAM!!!",
+        text: "Pesan Anda telah berhasil dikirim. MOHON JANGAN SPAM!!!. Kami akan segera menghubungi Anda.",
       });
       e.target.reset(); // reset form setelah pengiriman
     })
